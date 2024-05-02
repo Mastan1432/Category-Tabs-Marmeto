@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Category Tabs</title>
+
+</head>
+
+<body>
+    <div class="heading"><h1>SELECT YOUR CHOICE</h1></div>
+    <div class="tabs">
+        <button class="tab" onclick="showProducts('men')">Men</button>
+        <button class="tab" onclick="showProducts('women')">Women</button>
+        <button class="tab" onclick="showProducts('kids')">Kids</button>
+      </div>
+      
+      <div id="product-container" class="product-container">
+        <!-- Product cards will be dynamically added here -->
+      </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
